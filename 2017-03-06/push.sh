@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-git pull origin remote
+git pull master elimcjah
 git add .
 git commit -m "update"
-git push origin remote
+git push master elimcjah
