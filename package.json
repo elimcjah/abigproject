@@ -1,0 +1,41 @@
+{
+  "name": "js3030-main",
+  "version": "0.1.0",
+  "description": "JavaScript 3030 Course",
+  "keywords": [],
+  "homepage": "",
+  "author": {
+    "name": "Mike Whitfield",
+    "url": "http://mikewhitfield.org"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "js3030-installation": "^0.1.0",
+    "js3030-week1": "^0.1.0",
+    "js3030-week2": "^0.1.0",
+    "js3030-week3": "^0.1.0",
+    "service-industry-scheduler": "0.0.0",
+    "spiritdependencies": "^0.1.42",
+    "spirittests": "^0.3.0",
+    "spirittimers": "^0.8.13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/michaelgwhitfield/javascript3030.git"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "coveralls": "~2.11.8",
+    "eslint": "~3.13.*",
+    "istanbul": "~0.4.2",
+    "jasmine": "^2.5.2",
+    "jsdoc": "~3.4.0",
+    "rimraf": "~2.5.2"
+  },
+  "scripts": {
+    "build-dependencies": "node node_modules/spiritdependencies/build.js",
+    "run-testserver": "node node_modules/spirittests/test.server.js",
+    "run-tests": "node node_modules/spirittests/index.js",
+    "clean-dependencies": "node node_modules/spiritdependencies/clean.js"
+  }
+}

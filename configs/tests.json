@@ -1,0 +1,11 @@
+{
+  "server": {
+    "paths": [
+      "/Users/Fungry/Desktop/JS3030-Class-Folder/2017-03-06/"
+    ],
+    "requires": [
+      "spirittimers/spirittimer.class.js",
+      "spirittimers/spirittimers.class.js"
+    ]
+  }
+}
