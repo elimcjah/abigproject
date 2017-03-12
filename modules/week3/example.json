@@ -1,0 +1,45 @@
+{
+    "_id": "58c0428be0eba423a465cd98",
+    "index": 0,
+    "guid": "4dc7a422-f7a9-4b0b-b68f-1f5f0767f7be",
+    "isActive": false,
+    "balance": "$2,432.93",
+    "picture": "http://placehold.it/32x32",
+    "age": 32,
+    "eyeColor": "blue",
+    "name": "Allyson Hahn",
+    "gender": "female",
+    "company": "TRIBALOG",
+    "email": "allysonhahn@tribalog.com",
+    "phone": "+1 (949) 489-2896",
+    "address": "210 Court Street, Sutton, American Samoa, 1194",
+    "about": "Ut commodo do ea duis deserunt sit cupidatat. Non laborum labore id consequat. Mollit eu deserunt quis eiusmod minim ad cupidatat. Amet sit velit aute ut aute proident id labore sunt elit ea id velit. Non culpa amet magna magna. Aliquip dolor cupidatat nisi dolore Lorem qui ullamco dolor ipsum anim. Deserunt dolore laboris enim occaecat anim laborum in amet nulla quis veniam.\r\n",
+    "registered": "2014-05-15T06:35:43 +06:00",
+    "latitude": 4.20305,
+    "longitude": 110.444849,
+    "tags": [
+        "id",
+        "ea",
+        "do",
+        "magna",
+        "amet",
+        "pariatur",
+        "consectetur"
+    ],
+    "friends": [
+        {
+        "id": 0,
+        "name": "Alyce Perry"
+        },
+        {
+        "id": 1,
+        "name": "Reyna Callahan"
+        },
+        {
+        "id": 2,
+        "name": "Bernice Rodriguez"
+        }
+    ],
+    "greeting": "Hello, Allyson Hahn! You have 4 unread messages.",
+    "favoriteFruit": "strawberry"
+}

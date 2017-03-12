@@ -10,17 +10,17 @@
         "spec": ">=0.1.0 <0.2.0",
         "type": "range"
       },
-      "/Users/Fungry/Downloads/release/code"
+      "/Users/Fungry/Desktop/JavascriptClass"
     ]
   ],
   "_from": "js3030-week1@>=0.1.0 <0.2.0",
-  "_id": "js3030-week1@0.1.6",
+  "_id": "js3030-week1@0.1.7",
   "_inCache": true,
   "_location": "/js3030-week1",
   "_nodeVersion": "6.9.5",
   "_npmOperationalInternal": {
     "host": "packages-18-east.internal.npmjs.com",
-    "tmp": "tmp/js3030-week1-0.1.6.tgz_1487209817178_0.21433804370462894"
+    "tmp": "tmp/js3030-week1-0.1.7.tgz_1488918787865_0.035165293142199516"
   },
   "_npmUser": {
     "name": "spiritway",
@@ -38,13 +38,14 @@
     "type": "range"
   },
   "_requiredBy": [
+    "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/js3030-week1/-/js3030-week1-0.1.6.tgz",
-  "_shasum": "bda9f196e946342b560dedfa17155d8fe3fd3ef6",
+  "_resolved": "https://registry.npmjs.org/js3030-week1/-/js3030-week1-0.1.7.tgz",
+  "_shasum": "d0240b81f420df7419c9b0b83c574454de9e7b07",
   "_shrinkwrap": null,
   "_spec": "js3030-week1@^0.1.0",
-  "_where": "/Users/Fungry/Downloads/release/code",
+  "_where": "/Users/Fungry/Desktop/JavascriptClass",
   "author": {
     "name": "Mike Whitfield",
     "url": "http://mikewhitfield.org"
@@ -62,10 +63,10 @@
   },
   "directories": {},
   "dist": {
-    "shasum": "bda9f196e946342b560dedfa17155d8fe3fd3ef6",
-    "tarball": "https://registry.npmjs.org/js3030-week1/-/js3030-week1-0.1.6.tgz"
+    "shasum": "d0240b81f420df7419c9b0b83c574454de9e7b07",
+    "tarball": "https://registry.npmjs.org/js3030-week1/-/js3030-week1-0.1.7.tgz"
   },
-  "gitHead": "90010823279f1b4dcbea259b25d7f1c38ffe5937",
+  "gitHead": "6d950c445c51f38f3d1eaa348ef99653084ff398",
   "homepage": "https://bitbucket.org/michaelgwhitfield/javascript3030#readme",
   "keywords": [],
   "maintainers": [
@@ -82,5 +83,5 @@
     "url": "git+https://bitbucket.org/michaelgwhitfield/javascript3030.git"
   },
   "scripts": {},
-  "version": "0.1.6"
+  "version": "0.1.7"
 }

@@ -1,7 +1,145 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac92333f-83f6-4f16-932d-b0d458d2ee04" name="Default" comment="" />
+    <list default="true" id="ac92333f-83f6-4f16-932d-b0d458d2ee04" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/week2/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/week2/.vscode/settings.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/week2/2.1-arrays.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/week2/2.2-object.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/week2/2.3-conditionals.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/week2/2.4-loops.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/week2/2.5-functions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/week2/assignments/filter-object.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/week2/assignments/recursive-function.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/week2/assignments/search-object.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/week2/assignments/simplify-object.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/week2/assignments/sort-object.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/week2/books.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/week2/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/week2/tests/simplify-object.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/week2/tests/sort-object.class.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/week3/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/week3/.vscode/launch.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/week3/.vscode/settings.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/week3/3.1-classes_as_containers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/week3/3.10-classes_as_inheritable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/week3/3.2-this_variable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/week3/3.3-node-fs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/week3/3.4-json.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/week3/3.5-setTimeout_setInterval.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/week3/3.6-bind_apply_call.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/week3/3.7-network_requests.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/week3/3.8-classes_as_templates.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/week3/3.8-network_requests.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/week3/3.9-classes_as_inheritable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/week3/3.9-classes_as_templates.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/week3/assignments/classes_as_templates_assignment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/week3/assignments/redistribute-by-subject.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/week3/assignments/tanks-static.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/week3/books.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/week3/cache/spiritrscandir.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/week3/example.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/week3/example.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/week3/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/week3/tests/classes_as_templates_assignment_test.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/js3030-week2/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/js3030-week2/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/js3030-week3/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/js3030-week3/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spiritdependencies/node_modules/spirittests/.eslintrc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spiritdependencies/node_modules/spirittests/.eslintrc.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spiritdependencies/node_modules/spirittests/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spiritdependencies/node_modules/spirittests/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spiritdependencies/node_modules/spirittests/.vscode/launch.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spiritdependencies/node_modules/spirittests/.vscode/settings.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spiritdependencies/node_modules/spirittests/cache/spiritrscandir.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spiritdependencies/node_modules/spirittests/configs/tests.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spiritdependencies/node_modules/spirittests/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spiritdependencies/node_modules/spirittests/install.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spiritdependencies/node_modules/spirittests/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spiritdependencies/node_modules/spirittests/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spiritdependencies/node_modules/spirittests/spec/support/jasmine.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spiritdependencies/node_modules/spirittests/spirittest.class.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spiritdependencies/node_modules/spirittests/spirittestserver.class.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spiritdependencies/node_modules/spirittests/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spiritdependencies/node_modules/spirittests/test.run.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spiritdependencies/node_modules/spirittests/test.server.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spiritdependencies/node_modules/spirittests/www/img/spiritbots-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spiritdependencies/node_modules/spirittests/www/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spiritdependencies/node_modules/spirittests/www/spirittestsfrontend.class.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spiritdependencies/node_modules/spirittests/www/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spiritdependencies/node_modules/spirittests/www/tests.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spirittimers/node_modules/spirittests/.eslintrc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spirittimers/node_modules/spirittests/.eslintrc.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spirittimers/node_modules/spirittests/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spirittimers/node_modules/spirittests/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spirittimers/node_modules/spirittests/.vscode/launch.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spirittimers/node_modules/spirittests/.vscode/settings.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spirittimers/node_modules/spirittests/cache/spiritrscandir.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spirittimers/node_modules/spirittests/configs/tests.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spirittimers/node_modules/spirittests/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spirittimers/node_modules/spirittests/install.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spirittimers/node_modules/spirittests/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spirittimers/node_modules/spirittests/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spirittimers/node_modules/spirittests/spec/support/jasmine.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spirittimers/node_modules/spirittests/spirittest.class.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spirittimers/node_modules/spirittests/spirittestserver.class.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spirittimers/node_modules/spirittests/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spirittimers/node_modules/spirittests/test.run.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spirittimers/node_modules/spirittests/test.server.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spirittimers/node_modules/spirittests/www/img/spiritbots-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spirittimers/node_modules/spirittests/www/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spirittimers/node_modules/spirittests/www/spirittestsfrontend.class.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spirittimers/node_modules/spirittests/www/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/spirittimers/node_modules/spirittests/www/tests.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/spiritrscandir.json" afterPath="$PROJECT_DIR$/cache/spiritrscandir.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configs/dependencies.json" afterPath="$PROJECT_DIR$/configs/dependencies.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configs/tests.json" afterPath="$PROJECT_DIR$/configs/tests.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/week1/package.json" afterPath="$PROJECT_DIR$/modules/week1/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js3030-installation/install.js" afterPath="$PROJECT_DIR$/node_modules/js3030-installation/install.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js3030-installation/package.json" afterPath="$PROJECT_DIR$/node_modules/js3030-installation/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/normalize-package-data/.npmignore" afterPath="$PROJECT_DIR$/node_modules/normalize-package-data/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/normalize-package-data/AUTHORS" afterPath="$PROJECT_DIR$/node_modules/normalize-package-data/AUTHORS" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/normalize-package-data/LICENSE" afterPath="$PROJECT_DIR$/node_modules/normalize-package-data/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/normalize-package-data/README.md" afterPath="$PROJECT_DIR$/node_modules/normalize-package-data/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/normalize-package-data/lib/make_warning.js" afterPath="$PROJECT_DIR$/node_modules/normalize-package-data/lib/make_warning.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/normalize-package-data/lib/normalize.js" afterPath="$PROJECT_DIR$/node_modules/normalize-package-data/lib/normalize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/normalize-package-data/lib/safe_format.js" afterPath="$PROJECT_DIR$/node_modules/normalize-package-data/lib/safe_format.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/normalize-package-data/lib/typos.json" afterPath="$PROJECT_DIR$/node_modules/normalize-package-data/lib/typos.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/normalize-package-data/package.json" afterPath="$PROJECT_DIR$/node_modules/normalize-package-data/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/normalize-package-data/test/consistency.js" afterPath="$PROJECT_DIR$/node_modules/normalize-package-data/test/consistency.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/normalize-package-data/test/dependencies.js" afterPath="$PROJECT_DIR$/node_modules/normalize-package-data/test/dependencies.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/normalize-package-data/test/fixtures/async.json" afterPath="$PROJECT_DIR$/node_modules/normalize-package-data/test/fixtures/async.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/normalize-package-data/test/fixtures/bcrypt.json" afterPath="$PROJECT_DIR$/node_modules/normalize-package-data/test/fixtures/bcrypt.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/normalize-package-data/test/fixtures/coffee-script.json" afterPath="$PROJECT_DIR$/node_modules/normalize-package-data/test/fixtures/coffee-script.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/normalize-package-data/test/fixtures/http-server.json" afterPath="$PROJECT_DIR$/node_modules/normalize-package-data/test/fixtures/http-server.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/normalize-package-data/test/fixtures/movefile.json" afterPath="$PROJECT_DIR$/node_modules/normalize-package-data/test/fixtures/movefile.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/normalize-package-data/test/fixtures/no-description.json" afterPath="$PROJECT_DIR$/node_modules/normalize-package-data/test/fixtures/no-description.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/normalize-package-data/test/fixtures/node-module_exist.json" afterPath="$PROJECT_DIR$/node_modules/normalize-package-data/test/fixtures/node-module_exist.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/normalize-package-data/test/fixtures/npm.json" afterPath="$PROJECT_DIR$/node_modules/normalize-package-data/test/fixtures/npm.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/normalize-package-data/test/fixtures/request.json" afterPath="$PROJECT_DIR$/node_modules/normalize-package-data/test/fixtures/request.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/normalize-package-data/test/fixtures/underscore.json" afterPath="$PROJECT_DIR$/node_modules/normalize-package-data/test/fixtures/underscore.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/normalize-package-data/test/normalize.js" afterPath="$PROJECT_DIR$/node_modules/normalize-package-data/test/normalize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/normalize-package-data/test/typo.js" afterPath="$PROJECT_DIR$/node_modules/normalize-package-data/test/typo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/path-exists/index.js" afterPath="$PROJECT_DIR$/node_modules/path-exists/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/path-exists/package.json" afterPath="$PROJECT_DIR$/node_modules/path-exists/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/path-exists/readme.md" afterPath="$PROJECT_DIR$/node_modules/path-exists/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rimraf/bin.js" afterPath="$PROJECT_DIR$/node_modules/rimraf/bin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rimraf/package.json" afterPath="$PROJECT_DIR$/node_modules/rimraf/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rimraf/rimraf.js" afterPath="$PROJECT_DIR$/node_modules/rimraf/rimraf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/spiritdependencies/cache/spiritrscandir.json" afterPath="$PROJECT_DIR$/node_modules/spiritdependencies/cache/spiritrscandir.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/spiritdependencies/install.js" afterPath="$PROJECT_DIR$/node_modules/spiritdependencies/install.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/spiritdependencies/package.json" afterPath="$PROJECT_DIR$/node_modules/spiritdependencies/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/spiritdependencies/spiritdependencies.class.js" afterPath="$PROJECT_DIR$/node_modules/spiritdependencies/spiritdependencies.class.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/spiritdependencies/tests/spiritdependencies.class.test.js" afterPath="$PROJECT_DIR$/node_modules/spiritdependencies/tests/spiritdependencies.class.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/spirittimers/package.json" afterPath="$PROJECT_DIR$/node_modules/spirittimers/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/spirittimers/spirittimer.class.js" afterPath="$PROJECT_DIR$/node_modules/spirittimers/spirittimer.class.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/spirittimers/spirittimers.class.js" afterPath="$PROJECT_DIR$/node_modules/spirittimers/spirittimers.class.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/spirittimers/tests/spirittimers.test.js" afterPath="$PROJECT_DIR$/node_modules/spirittimers/tests/spirittimers.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,12 +154,53 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="filter-object.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/week2/assignments/filter-object.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="100" column="5" lean-forward="true" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>books.json</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/modules/week2</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/modules/week1/1.1-debugging.js" />
+        <option value="$PROJECT_DIR$/modules/week2/2.1-arrays.js" />
+        <option value="$PROJECT_DIR$/modules/week2/assignments/sort-object.js" />
+        <option value="$PROJECT_DIR$/modules/week2/assignments/search-object.js" />
+        <option value="$PROJECT_DIR$/modules/week2/assignments/simplify-object.js" />
+        <option value="$PROJECT_DIR$/modules/week2/assignments/filter-object.js" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
     <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
@@ -31,10 +210,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="40" />
+    <option name="x" value="258" />
     <option name="y" value="23" />
-    <option name="width" value="1400" />
-    <option name="height" value="877" />
+    <option name="width" value="1182" />
+    <option name="height" value="867" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -56,26 +235,199 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Davinci" />
+              <option name="myItemId" value="JavascriptClass" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Davinci" />
+              <option name="myItemId" value="JavascriptClass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavascriptClass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavascriptClass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavascriptClass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavascriptClass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavascriptClass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavascriptClass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="week2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavascriptClass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavascriptClass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="week2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assignments" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="js.eslint.eslintPackage" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="ignore_missing_gitignore" value="true" />
+  </component>
+  <component name="RunManager" selected="Mongo.sort-object.js">
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavascriptClass/www/index.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="filter-object.js" type="MongoRunConfiguration" factoryName="Mongo" singleton="true" temporary="true">
+      <setting name="path" value="$PROJECT_DIR$/modules/week2/assignments/filter-object.js" />
+      <setting name="shellParams" value="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="sort-object.js" type="MongoRunConfiguration" factoryName="Mongo" temporary="true">
+      <setting name="path" value="$PROJECT_DIR$/modules/week2/assignments/sort-object.js" />
+      <setting name="shellParams" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="MongoRunConfiguration" factoryName="Mongo">
+      <setting name="path" value="" />
+      <setting name="shellParams" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="1" class="java.lang.String" itemvalue="Mongo.filter-object.js" />
+      <item index="2" class="java.lang.String" itemvalue="Mongo.sort-object.js" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Mongo.sort-object.js" />
+        <item index="1" class="java.lang.String" itemvalue="Mongo.filter-object.js" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -88,34 +440,39 @@
       <option name="presentableId" value="Default" />
       <updated>1488915951286</updated>
       <workItem from="1488915953132" duration="120000" />
+      <workItem from="1489022069427" duration="409000" />
+      <workItem from="1489194507778" duration="1749000" />
+      <workItem from="1489227712220" duration="589000" />
+      <workItem from="1489228321401" duration="3000" />
+      <workItem from="1489228498241" duration="26181000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120000" />
+    <option name="totallyTimeSpent" value="29051000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="40" y="23" width="1400" height="877" extended-state="6" />
+    <frame x="258" y="23" width="1182" height="867" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496318" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32807016" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33431518" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42709678" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,7 +482,270 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/modules/week2/2.2-object.js</url>
+          <line>70</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
+    </breakpoint-manager>
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/modules/week2/2.1-arrays.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week2/2.2-object.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="70" column="21" lean-forward="false" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week2/assignments/filter-object.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="74" lean-forward="false" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week2/2.1-arrays.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week2/2.2-object.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="70" column="21" lean-forward="false" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week2/assignments/filter-object.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week2/2.1-arrays.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week3/3.9-classes_as_inheritable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week3/3.7-network_requests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week1/1.2-variables_and_functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week1/1.1-debugging.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week3/3.9-classes_as_templates.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week3/3.10-classes_as_inheritable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week3/3.5-setTimeout_setInterval.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-381">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week3/3.4-json.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week2/2.1-arrays.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week2/2.2-object.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="70" column="21" lean-forward="false" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week3/assignments/tanks-static.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week3/3.3-node-fs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week3/assignments/classes_as_templates_assignment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week3/assignments/redistribute-by-subject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week3/3.2-this_variable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1455">
+          <caret line="97" column="29" lean-forward="true" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week3/3.1-classes_as_containers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week2/assignments/sort-object.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week2/assignments/recursive-function.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week2/assignments/search-object.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week2/assignments/simplify-object.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/js3030-week2/2.1-arrays.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week2/assignments/filter-object.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="100" column="5" lean-forward="true" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

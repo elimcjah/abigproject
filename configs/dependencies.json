@@ -2,6 +2,13 @@
   "modules": [
     {
       "js3030-week1": "week1"
+    },
+    {
+      "js3030-week2": "week2"
+    },
+    {
+      "js3030-week3": "week3"
     }
-  ]
+  ],
+  "preserveChanges": true
 }

@@ -14,9 +14,10 @@
     "js3030-week1": "^0.1.0",
     "js3030-week2": "^0.1.0",
     "js3030-week3": "^0.1.0",
+    "rimraf": "^2.5.4",
     "service-industry-scheduler": "0.0.0",
     "spiritdependencies": "^0.1.42",
-    "spirittests": "^0.3.0",
+    "spirittests": "^0.3.*",
     "spirittimers": "^0.8.13"
   },
   "repository": {
@@ -36,6 +37,7 @@
     "build-dependencies": "node node_modules/spiritdependencies/build.js",
     "run-testserver": "node node_modules/spirittests/test.server.js",
     "run-tests": "node node_modules/spirittests/index.js",
-    "clean-dependencies": "node node_modules/spiritdependencies/clean.js"
+    "clean-dependencies": "node node_modules/spiritdependencies/clean.js",
+    "update-dependencies": "node node_modules/spiritdependencies/update.js"
   }
 }
