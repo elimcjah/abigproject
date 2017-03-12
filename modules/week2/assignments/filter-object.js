@@ -12,7 +12,7 @@
  * and the debugger to see what's going on where.
  */
 
-var getFirstTenBooks = function() {
+let getFirstTenBooks = function() {
     return JSON.parse(
         require('fs').readFileSync(__dirname + '/../books.json', 'UTF8'))
         .slice(0, 10);
@@ -40,7 +40,7 @@ function filterByDate(books, yearMin, yearMax) {
             aaed = aaed.substring(1);
         }
 
-        // Add a new property to each book for date that will include month
+        // Add a new property to each book with date that will occasionally include month and/or day
         books[i].date_published = aaed ? aaed : aapub;
 
         // Add a new property to each book with just the year
@@ -52,7 +52,7 @@ function filterByDate(books, yearMin, yearMax) {
 
     // FILTER OUT BOOKS OLDER THAN yearMin
 
-    if(yearMin == undefined){
+    if(yearMin == ''){
         yearMin = -1;
     }
 
@@ -71,7 +71,7 @@ function filterByDate(books, yearMin, yearMax) {
     // FILTER OUT BOOKS NEW THAN yearMax
 
     // Plan for error from undefined
-    if(yearMax == undefined){
+    if(yearMax == ''){
         yearMax = 9999;
     }
 
@@ -96,7 +96,7 @@ function filterByDate(books, yearMin, yearMax) {
         }
         else{
             // Return all books with a long title and year.
-            console.log(books[i]['title_long'] + ' from ' + books[i]['year']);
+            console.log(books[i]['title_long'] + ' :: published in ' + books[i]['year']);
         }
     }
 }
