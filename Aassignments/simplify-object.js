@@ -22,5 +22,9 @@ var getFirstTenBooks = function() {
  * Filter the inputted object for just the selected columns.
  */
 function filterColumns(books, columns = ['title', 'author']) {
-    
+    for(let i =0; i<books.length; i++){
+       console.log(Object.keys(books[i]));
+    }
 }
+
+filterColumns(getFirstTenBooks());

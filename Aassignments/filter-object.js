@@ -4,9 +4,9 @@
  * Careful, this one is tricky!  Study the books.json object format before
  * attempting this one.  The data is non-uniform, and you'll need to do string
  * extraction using patterns to succeed.
- *
+ * 
  * To complete this assignment, examine the books structure in books.json.
- *
+ * 
  * You'll be benefitted to test your function using the "getFirstTenBooks"
  * function.  It's recommended to leverage a combination of console.log's
  * and the debugger to see what's going on where.
@@ -18,13 +18,12 @@ let getFirstTenBooks = function() {
         .slice(0, 10);
 }
 
+// console.log(getFirstTenBooks().keys)
 
-
-// TODO partial search should split more than one word into an array and then individually search for each word
-
-/**
+/** 
  * Filter the inputted books bounded by input year.
- */function filterByDate(books, yearMin, yearMax) {
+ */
+function filterByDate(books, yearMin, yearMax) {
 
     // iterate through each book
     for(let i = 0; i<books.length; i++){
