@@ -1,99 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac92333f-83f6-4f16-932d-b0d458d2ee04" name="Default" comment="Worked on the search-object.js file.  Most of the way through the author section.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Aassignments/filter-object.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Aassignments/filter-objects-x.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Aassignments/recursive-function.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Aassignments/search-object.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Aassignments/simplify-object.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Aassignments/sort-object.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/.bin/strip-json-comments" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/.bin/supports-color" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/chalk/node_modules/supports-color/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/chalk/node_modules/supports-color/license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/chalk/node_modules/supports-color/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/chalk/node_modules/supports-color/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/qs/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/strip-json-comments/cli.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/strip-json-comments/strip-json-comments.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/supports-color/cli.js" afterPath="" />
+    <list default="true" id="ac92333f-83f6-4f16-932d-b0d458d2ee04" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Aassignments/classes_as_templates_assignment.js" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/js3030-week2/.npmignore" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/js3030-week2/package.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/js3030-week3/.npmignore" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/js3030-week3/package.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aassignments/search-object.js" afterPath="$PROJECT_DIR$/Aassignments/search-object.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configs/tests.json" afterPath="$PROJECT_DIR$/configs/tests.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/week2/assignments/filter-object.js" afterPath="$PROJECT_DIR$/modules/week2/assignments/filter-object.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/week2/assignments/search-object.js" afterPath="$PROJECT_DIR$/modules/week2/assignments/search-object.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/week2/assignments/simplify-object.js" afterPath="$PROJECT_DIR$/modules/week2/assignments/simplify-object.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/babel-cli/lib/_babel-node.js" afterPath="$PROJECT_DIR$/node_modules/babel-cli/lib/_babel-node.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/babel-cli/lib/babel/dir.js" afterPath="$PROJECT_DIR$/node_modules/babel-cli/lib/babel/dir.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/babel-cli/lib/babel/file.js" afterPath="$PROJECT_DIR$/node_modules/babel-cli/lib/babel/file.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/babel-cli/package.json" afterPath="$PROJECT_DIR$/node_modules/babel-cli/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/for-in/LICENSE" afterPath="$PROJECT_DIR$/node_modules/for-in/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/for-in/README.md" afterPath="$PROJECT_DIR$/node_modules/for-in/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/for-in/index.js" afterPath="$PROJECT_DIR$/node_modules/for-in/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/for-in/package.json" afterPath="$PROJECT_DIR$/node_modules/for-in/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/for-own/LICENSE" afterPath="$PROJECT_DIR$/node_modules/for-own/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/for-own/README.md" afterPath="$PROJECT_DIR$/node_modules/for-own/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/for-own/index.js" afterPath="$PROJECT_DIR$/node_modules/for-own/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/for-own/package.json" afterPath="$PROJECT_DIR$/node_modules/for-own/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/fsevents.js" afterPath="$PROJECT_DIR$/node_modules/fsevents/fsevents.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/abbrev/abbrev.js" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/abbrev/abbrev.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/abbrev/package.json" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/abbrev/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/ansi-regex/index.js" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/ansi-regex/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/ansi-regex/package.json" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/ansi-regex/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/ansi-regex/readme.md" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/ansi-regex/readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/aproba/README.md" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/aproba/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/aproba/index.js" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/aproba/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/aproba/package.json" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/aproba/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/aws4/aws4.js" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/aws4/aws4.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/aws4/package.json" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/aws4/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/bcrypt-pbkdf/index.js" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/bcrypt-pbkdf/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/bcrypt-pbkdf/package.json" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/bcrypt-pbkdf/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/gauge/CHANGELOG.md" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/gauge/CHANGELOG.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/gauge/index.js" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/gauge/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/gauge/package.json" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/gauge/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/jsbn/index.js" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/jsbn/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/jsbn/package.json" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/jsbn/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/mime-db/HISTORY.md" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/mime-db/HISTORY.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/mime-db/db.json" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/mime-db/db.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/mime-db/package.json" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/mime-db/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/mime-types/HISTORY.md" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/mime-types/HISTORY.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/mime-types/package.json" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/mime-types/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/node-pre-gyp/CHANGELOG.md" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/node-pre-gyp/CHANGELOG.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/node-pre-gyp/lib/node-pre-gyp.js" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/node-pre-gyp/lib/node-pre-gyp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/node-pre-gyp/lib/util/abi_crosswalk.json" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/node-pre-gyp/lib/util/abi_crosswalk.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/node-pre-gyp/package.json" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/node-pre-gyp/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/object-assign/index.js" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/object-assign/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/object-assign/package.json" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/object-assign/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/object-assign/readme.md" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/object-assign/readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/qs/.eslintrc" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/qs/.eslintrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/qs/CHANGELOG.md" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/qs/CHANGELOG.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/qs/README.md" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/qs/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/qs/dist/qs.js" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/qs/dist/qs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/qs/lib/parse.js" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/qs/lib/parse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/qs/lib/stringify.js" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/qs/lib/stringify.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/qs/lib/utils.js" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/qs/lib/utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/qs/package.json" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/qs/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/qs/test/.eslintrc" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/qs/test/.eslintrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/qs/test/parse.js" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/qs/test/parse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/qs/test/stringify.js" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/qs/test/stringify.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/rc/package.json" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/rc/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/sshpk/lib/identity.js" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/sshpk/lib/identity.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/sshpk/package.json" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/sshpk/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/strip-json-comments/package.json" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/strip-json-comments/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/strip-json-comments/readme.md" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/strip-json-comments/readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/supports-color/index.js" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/supports-color/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/supports-color/package.json" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/supports-color/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/supports-color/readme.md" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/supports-color/readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/package.json" afterPath="$PROJECT_DIR$/node_modules/fsevents/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/week2/assignments/sort-object.js" afterPath="$PROJECT_DIR$/modules/week2/assignments/sort-object.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/week3/assignments/classes_as_templates_assignment.js" afterPath="$PROJECT_DIR$/modules/week3/assignments/classes_as_templates_assignment.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/spirittests/configs/tests.json" afterPath="$PROJECT_DIR$/node_modules/spirittests/configs/tests.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/spirittests/install.js" afterPath="$PROJECT_DIR$/node_modules/spirittests/install.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/spirittests/package.json" afterPath="$PROJECT_DIR$/node_modules/spirittests/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/spirittests/spirittest.class.js" afterPath="$PROJECT_DIR$/node_modules/spirittests/spirittest.class.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -111,21 +34,101 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="search-object.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/modules/week2/assignments/search-object.js">
+      <file leaf-file-name="filter-object.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/week2/assignments/filter-object.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="183" column="15" lean-forward="false" selection-start-line="183" selection-start-column="15" selection-end-line="183" selection-end-column="15" />
+            <state relative-caret-position="445">
+              <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="filter-object.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/week2/assignments/filter-object.js">
+      <file leaf-file-name="search-object.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/week2/assignments/search-object.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="-2285">
+              <caret line="24" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="simplify-object.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/week2/assignments/simplify-object.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="classes_as_templates_assignment.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/week3/assignments/classes_as_templates_assignment.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sort-object.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/week2/assignments/sort-object.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search-object.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Aassignments/search-object.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="445">
+              <caret line="202" column="0" lean-forward="false" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recursive-function.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/week2/assignments/recursive-function.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="npm-debug.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/week3/assignments/npm-debug.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="19" column="50" lean-forward="false" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="redistribute-by-subject.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/week3/assignments/redistribute-by-subject.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tanks-static.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/week3/assignments/tanks-static.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -143,6 +146,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>books.json</find>
+      <find>test</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/modules/week2</dir>
@@ -157,12 +161,14 @@
         <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/modules/week1/1.1-debugging.js" />
         <option value="$PROJECT_DIR$/modules/week2/2.1-arrays.js" />
-        <option value="$PROJECT_DIR$/modules/week2/assignments/sort-object.js" />
         <option value="$PROJECT_DIR$/modules/week2/assignments/simplify-object.js" />
         <option value="$PROJECT_DIR$/Aassignments/filter-objects-x.js" />
-        <option value="$PROJECT_DIR$/modules/week3/assignments/classes_as_templates_assignment.js" />
-        <option value="$PROJECT_DIR$/modules/week2/assignments/filter-object.js" />
         <option value="$PROJECT_DIR$/modules/week2/assignments/search-object.js" />
+        <option value="$PROJECT_DIR$/modules/week2/assignments/filter-object.js" />
+        <option value="$PROJECT_DIR$/modules/week2/assignments/sort-object.js" />
+        <option value="$PROJECT_DIR$/modules/week3/assignments/classes_as_templates_assignment.js" />
+        <option value="$PROJECT_DIR$/modules/week3/assignments/npm-debug.log" />
+        <option value="$PROJECT_DIR$/Aassignments/search-object.js" />
       </list>
     </option>
   </component>
@@ -244,6 +250,32 @@
               <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="week3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavascriptClass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavascriptClass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="week3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assignments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -295,14 +327,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavascriptClass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavascriptClass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Aassignments" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -315,13 +361,14 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="6.9.4" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Aassignments" />
     </key>
   </component>
-  <component name="RunManager" selected="Mongo.sort-object.js">
+  <component name="RunManager" selected="Mocha.modules/week3/tests/classes_as_templates_assignment_test.js">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavascriptClass/www/index.html">
       <method />
     </configuration>
@@ -333,6 +380,21 @@
     <configuration default="false" name="sort-object.js" type="MongoRunConfiguration" factoryName="Mongo" temporary="true">
       <setting name="path" value="$PROJECT_DIR$/modules/week2/assignments/sort-object.js" />
       <setting name="shellParams" value="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="classes_as_templates_assignment.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="classes_as_templates_assignment.js" working-dir="$PROJECT_DIR$/modules/week3/assignments">
+      <method />
+    </configuration>
+    <configuration default="false" name="modules/week3/tests/classes_as_templates_assignment_test.js" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST_FILE</test-kind>
+      <test-file>$PROJECT_DIR$/modules/week3/tests/classes_as_templates_assignment_test.js</test-file>
       <method />
     </configuration>
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
@@ -410,16 +472,20 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       <item index="1" class="java.lang.String" itemvalue="Mongo.filter-object.js" />
       <item index="2" class="java.lang.String" itemvalue="Mongo.sort-object.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.classes_as_templates_assignment.js" />
+      <item index="4" class="java.lang.String" itemvalue="Mocha.modules/week3/tests/classes_as_templates_assignment_test.js" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Mongo.sort-object.js" />
-        <item index="1" class="java.lang.String" itemvalue="Mongo.filter-object.js" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Mocha.modules/week3/tests/classes_as_templates_assignment_test.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.classes_as_templates_assignment.js" />
+        <item index="2" class="java.lang.String" itemvalue="Mongo.sort-object.js" />
+        <item index="3" class="java.lang.String" itemvalue="Mongo.filter-object.js" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -438,7 +504,9 @@
       <workItem from="1489194507778" duration="1749000" />
       <workItem from="1489227712220" duration="589000" />
       <workItem from="1489228321401" duration="3000" />
-      <workItem from="1489228498241" duration="44814000" />
+      <workItem from="1489228498241" duration="44857000" />
+      <workItem from="1489461151831" duration="1765000" />
+      <workItem from="1489681751714" duration="5700000" />
     </task>
     <task id="LOCAL-00001" summary="Finished filter-object.js">
       <created>1489322648645</created>
@@ -454,26 +522,32 @@
       <option name="project" value="LOCAL" />
       <updated>1489322853548</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Worked on the search-object.js file.  Most of the way through the author section.">
+      <created>1489455412243</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1489455412243</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47684000" />
+    <option name="totallyTimeSpent" value="55192000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="77" y="23" width="1363" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32778198" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21347465" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33431518" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41528663" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35923567" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -481,6 +555,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -493,7 +568,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finished filter-object.js" />
     <MESSAGE value="changed a little verbiage in the console.log returned" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed a little verbiage in the console.log returned" />
+    <MESSAGE value="Worked on the search-object.js file.  Most of the way through the author section." />
+    <option name="LAST_COMMIT_MESSAGE" value="Worked on the search-object.js file.  Most of the way through the author section." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -509,11 +585,34 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/modules/week2/assignments/search-object.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2745">
+          <caret line="183" column="15" lean-forward="false" selection-start-line="183" selection-start-column="15" selection-end-line="183" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week2/assignments/simplify-object.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week2/assignments/recursive-function.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/modules/week2/2.1-arrays.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="885">
           <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -537,7 +636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -545,7 +643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="885">
           <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -569,19 +666,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/week2/2.1-arrays.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/week3/3.9-classes_as_inheritable.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -609,20 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/week3/3.9-classes_as_templates.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/week3/3.10-classes_as_inheritable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/week3/3.4-json.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -634,7 +708,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="885">
           <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -642,6 +715,180 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
           <caret line="70" column="21" lean-forward="false" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/js3030-week2/2.1-arrays.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week3/3.5-setTimeout_setInterval.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aassignments/filter-objects-x.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="107" column="43" lean-forward="false" selection-start-line="107" selection-start-column="43" selection-end-line="107" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aassignments/sort-object.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aassignments/filter-object.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week3/3.1-classes_as_containers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1065">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week3/3.3-node-fs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-320">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week3/3.2-this_variable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="970">
+          <caret line="97" column="29" lean-forward="true" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week3/3.8-network_requests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-245">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week3/3.8-classes_as_templates.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week3/3.10-classes_as_inheritable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week3/3.9-classes_as_templates.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week3/3.9-classes_as_inheritable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aassignments/classes_as_templates_assignment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week2/tests/simplify-object.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week2/tests/sort-object.class.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week2/books.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week2/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="58" column="27" lean-forward="true" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week3/tests/classes_as_templates_assignment_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/spirittests/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/spirittests/install.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week2/.npmignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -654,74 +901,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/week3/3.3-node-fs.js">
+    <entry file="file://$PROJECT_DIR$/modules/week3/assignments/npm-debug.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/week3/3.2-this_variable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1455">
-          <caret line="97" column="29" lean-forward="true" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/js3030-week2/2.1-arrays.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/week3/assignments/tanks-static.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/week3/3.5-setTimeout_setInterval.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/week3/3.1-classes_as_containers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/week2/assignments/sort-object.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/week2/tests/simplify-object.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-64">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Aassignments/filter-objects-x.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="107" column="43" lean-forward="false" selection-start-line="107" selection-start-column="43" selection-end-line="107" selection-end-column="43" />
+        <state relative-caret-position="190">
+          <caret line="19" column="50" lean-forward="false" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
           <folding />
         </state>
       </provider>
@@ -734,42 +917,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/week3/assignments/classes_as_templates_assignment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/week2/assignments/simplify-object.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Aassignments/sort-object.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Aassignments/filter-object.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Aassignments/search-object.js">
+    <entry file="file://$PROJECT_DIR$/modules/week3/assignments/tanks-static.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week2/assignments/filter-object.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -782,18 +941,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/week2/assignments/filter-object.js">
+    <entry file="file://$PROJECT_DIR$/Aassignments/search-object.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="445">
+          <caret line="202" column="0" lean-forward="false" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/week2/assignments/search-object.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="183" column="15" lean-forward="false" selection-start-line="183" selection-start-column="15" selection-end-line="183" selection-end-column="15" />
+        <state relative-caret-position="-2285">
+          <caret line="24" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week2/assignments/sort-object.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week2/assignments/simplify-object.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/week3/assignments/classes_as_templates_assignment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>

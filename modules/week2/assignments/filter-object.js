@@ -102,4 +102,5 @@ let getFirstTenBooks = function() {
     }
 }
 
-filterByDate(getFirstTenBooks(), 18, 19);
+
+filterByDate(getFirstTenBooks(), 1996, 2000);
