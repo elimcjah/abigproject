@@ -38,7 +38,7 @@ new square().area(); // NaN, we've asked a new this object to be created
 square.prototype.width = 4;
 square.prototype.height = 4;
 new square().area(); // 16, the 'this' object is inheriting the prototype properties
-square(2).area(); // 2, the default 'this' object is still the same!
+square(2).area(); // 4, the default 'this' object is still the same!
 new square(2).area(); // 8, the 2 parameter overrides the square.prototype.width
 
 class Square {

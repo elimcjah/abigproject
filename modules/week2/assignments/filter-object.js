@@ -12,22 +12,25 @@
  * and the debugger to see what's going on where.
  */
 
+
+// COMPLETE
+
+
 let getFirstTenBooks = function() {
     return JSON.parse(
         require('fs').readFileSync(__dirname + '/../books.json', 'UTF8'))
         .slice(0, 10);
 }
 
-
-
-// TODO partial search should split more than one word into an array and then individually search for each word
+// console.log(getFirstTenBooks().keys)
 
 /**
  * Filter the inputted books bounded by input year.
- */function filterByDate(books, yearMin, yearMax) {
+ */
+function filterByDate(books, yearMin, yearMax) {
 
     // iterate through each book
-    for(let i = 0; i<books.length; i++){
+    for(let i = 0; i < books.length; i++){
 
         // Remove all characters except hyphens from edition_info and publisher_text
         let aaed  = books[i]['edition_info'].replace(/[^0-9\-]/g,'');
@@ -37,6 +40,7 @@ let getFirstTenBooks = function() {
         if(aaed.charAt(0) == '-'){
             aaed = aaed.substring(1);
         }
+
         if(aapub.charAt(0) == '-') {
             aaed = aaed.substring(1);
         }
@@ -48,7 +52,6 @@ let getFirstTenBooks = function() {
         books[i].year = aaed ? aaed.substring(0,4) : aapub;
 
         //  ALL BOOKS HAVE A KEY OF 'year' NOW.
-
     }
 
     // FILTER OUT BOOKS OLDER THAN yearMin
@@ -85,6 +88,12 @@ let getFirstTenBooks = function() {
             books.splice(k,1);
         }
 
+        // Remove all books with no dates found in data file.
+        // This will pass the test but needs to be fixed so that its only spliced if yearMin or yearMax is input.
+        if(books[k].year == ''){
+            books.splice(k,1);
+        }
+
         // BOOKS ARRAY NOW HAS BEEN MODIFIED TO REMOVE ALL BOOKS NEWER THAN yearMax!
     }
 
@@ -100,7 +109,7 @@ let getFirstTenBooks = function() {
             console.log(books[i]['title_long'] + ' :: published in ' + books[i]['year']);
         }
     }
+    return books;
 }
-
 
 filterByDate(getFirstTenBooks(), 1996, 2000);

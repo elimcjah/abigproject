@@ -25,6 +25,9 @@
 /**
  * Read in the books.json file from the directory above.
  */
+
+// TODO Need to finish redistribute-by-subject
+
 function readFiles() {
 
 }

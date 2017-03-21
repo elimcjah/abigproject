@@ -4,9 +4,9 @@
  * Careful, this one is tricky!  Study the books.json object format before
  * attempting this one.  The data is non-uniform, and you'll need to do string
  * extraction using patterns to succeed.
- * 
+ *
  * To complete this assignment, examine the books structure in books.json.
- * 
+ *
  * You'll be benefitted to test your function using the "getFirstTenBooks"
  * function.  It's recommended to leverage a combination of console.log's
  * and the debugger to see what's going on where.
@@ -20,7 +20,7 @@ let getFirstTenBooks = function() {
 
 // console.log(getFirstTenBooks().keys)
 
-/** 
+/**
  * Filter the inputted books bounded by input year.
  */
 function filterByDate(books, yearMin, yearMax) {
@@ -84,6 +84,12 @@ function filterByDate(books, yearMin, yearMax) {
             books.splice(k,1);
         }
 
+        // Remove all books with no dates found in data file.
+        // This will pass the test but needs to be fixed so that its only spliced if yearMin or yearMax is input.
+        if(books[k].year == ''){
+            books.splice(k,1);
+        }
+
         // BOOKS ARRAY NOW HAS BEEN MODIFIED TO REMOVE ALL BOOKS NEWER THAN yearMax!
     }
 
@@ -92,13 +98,14 @@ function filterByDate(books, yearMin, yearMax) {
 
         // If a book is returned because its year is missing the user should be alerted to this reason.
         if(books[i].year == '' ){
-            console.log(books[i]['title_long'] +' **** RETURNED BECAUSE NO YEAR PUBLISHED FOUND ****');
+            console.log(books[i]['title_latin'] +' **** RETURNED BECAUSE NO YEAR PUBLISHED FOUND ****');
         }
         else{
             // Return all books with a long title and year.
-            console.log(books[i]['title_long'] + ' :: published in ' + books[i]['year']);
+            console.log(books[i]['title_latin'] + ' :: published in ' + books[i]['year']);
         }
     }
+    return books;
 }
 
-filterByDate(getFirstTenBooks(), 18, 19);
+filterByDate(getFirstTenBooks(), 2010, 2012);

@@ -8,15 +8,15 @@
  * 
  */
 
-var Game = require(__dirname + '/../3.1-classes_as_containers.js');
+let Game = require(__dirname + '/../3.1-classes_as_containers.js');
 Game.oldReceiveInput = Game.receiveInput;
 Game.receiveInput = function(char) {
     Game.oldReceiveInput(char);
-}
+};
 
 Game.oldGameOptions = Game.gameOptions;
 Game.gameOptions = function() {
     Game.oldGameOptions();
-}
+};
 
 Game.initilaize();

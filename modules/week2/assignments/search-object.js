@@ -10,6 +10,8 @@
  * and the debugger to see what's going on where.
  */
 
+// TODO finish the author search
+
 var getFirstTenBooks = function() {
     return JSON.parse(
         require('fs').readFileSync(__dirname + '/../books.json', 'UTF8'))
@@ -17,10 +19,7 @@ var getFirstTenBooks = function() {
 }
 
 
-// TODO just like filter-objects.js partial search of more than one word should run search for each item.
 // TODO adjust search so that if someone searches in comma form, it will have same pop shift functions applied.
-
-
 
 /**
  * Return all books matching the title.
@@ -29,7 +28,6 @@ function searchTitle(books, title, partial) {
 
     // Remove case-sensitivity from the input title
     title = title.toUpperCase();
-
 
     // If Looking for a partial match
     if(partial == true){
@@ -81,6 +79,8 @@ function searchTitle(books, title, partial) {
             console.log(books[i]['title_long'])
         }
     }
+
+    return books;
 }
 
 /**
@@ -137,8 +137,8 @@ function searchAuthor(books, author, partial = true) {
 
                 // Add the authors to the newly created authors property of each book.
                 books[i]['author'].push(x);
-
             }
+
             // ALL AUTHORS ARE NOW BEING PLACED INTO A SINGLE ARRAY OF THE PROPERTY 'author' OF THE BOOK OBJECT
         }
     }

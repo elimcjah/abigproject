@@ -20,7 +20,7 @@
  * Likewise, JavaScript typically produces memory links if thousands of
  * timeouts are used.
  * 
- * As we'll learn, setTimeout and setInterval are improtant for understanding
+ * As we'll learn, setTimeout and setInterval are important for understanding
  * the asynchronous nature of JavaScript.  The way we deal with setTimeout 
  * and setInterval create implications for how we write code in JavaScript to
  * work with network requests and to run non-blocking code.

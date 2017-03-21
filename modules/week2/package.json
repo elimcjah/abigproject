@@ -14,13 +14,13 @@
     ]
   ],
   "_from": "js3030-week2@>=0.1.0 <0.2.0",
-  "_id": "js3030-week2@0.1.27",
+  "_id": "js3030-week2@0.1.28",
   "_inCache": true,
   "_location": "/js3030-week2",
   "_nodeVersion": "6.9.5",
   "_npmOperationalInternal": {
-    "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/js3030-week2-0.1.27.tgz_1489029687643_0.19813006976619363"
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/js3030-week2-0.1.28.tgz_1489632934616_0.7292141676880419"
   },
   "_npmUser": {
     "name": "spiritway",
@@ -41,8 +41,8 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/js3030-week2/-/js3030-week2-0.1.27.tgz",
-  "_shasum": "e75eb1a69813631560824ba5c68887df882188a2",
+  "_resolved": "https://registry.npmjs.org/js3030-week2/-/js3030-week2-0.1.28.tgz",
+  "_shasum": "6455520291a061ad1ac1b53be533f0373c7a0214",
   "_shrinkwrap": null,
   "_spec": "js3030-week2@^0.1.0",
   "_where": "/Users/Fungry/Desktop/JavascriptClass",
@@ -65,10 +65,10 @@
   },
   "directories": {},
   "dist": {
-    "shasum": "e75eb1a69813631560824ba5c68887df882188a2",
-    "tarball": "https://registry.npmjs.org/js3030-week2/-/js3030-week2-0.1.27.tgz"
+    "shasum": "6455520291a061ad1ac1b53be533f0373c7a0214",
+    "tarball": "https://registry.npmjs.org/js3030-week2/-/js3030-week2-0.1.28.tgz"
   },
-  "gitHead": "dfae10293f346571c5ee0defa3c81d21af7c6d93",
+  "gitHead": "fae1c89a2b0311f11a7c7e30730cb0be339d84ee",
   "homepage": "https://bitbucket.org/michaelgwhitfield/javascript3030#readme",
   "keywords": [],
   "maintainers": [
@@ -88,5 +88,5 @@
     "run-tests": "node node_modules/spirittests/index.js",
     "run-testserver": "node node_modules/spirittests/test.server.js"
   },
-  "version": "0.1.27"
+  "version": "0.1.28"
 }
