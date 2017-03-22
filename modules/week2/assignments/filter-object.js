@@ -56,7 +56,7 @@ function filterByDate(books, yearMin, yearMax) {
 
     // FILTER OUT BOOKS OLDER THAN yearMin
 
-    if(yearMin == ''){
+    if(yearMin === ''){
         yearMin = -1;
     }
 
@@ -75,7 +75,7 @@ function filterByDate(books, yearMin, yearMax) {
     // FILTER OUT BOOKS NEW THAN yearMax
 
     // Plan for error from undefined
-    if(yearMax == ''){
+    if(yearMax === ''){
         yearMax = 9999;
     }
 
@@ -90,7 +90,7 @@ function filterByDate(books, yearMin, yearMax) {
 
         // Remove all books with no dates found in data file.
         // This will pass the test but needs to be fixed so that its only spliced if yearMin or yearMax is input.
-        if(books[k].year == ''){
+        if(books[k].year === ''){
             books.splice(k,1);
         }
 
@@ -101,7 +101,7 @@ function filterByDate(books, yearMin, yearMax) {
     for(let i = 0; i < books.length; i++){
 
         // If a book is returned because its year is missing the user should be alerted to this reason.
-        if(books[i].year == '' ){
+        if(books[i].year === '' ){
             console.log(books[i]['title_long'] +' **** RETURNED BECAUSE NO YEAR PUBLISHED FOUND ****');
         }
         else{

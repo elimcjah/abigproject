@@ -10,7 +10,6 @@
  * and the debugger to see what's going on where.
  */
 
-// TODO finish the author search
 
 var getFirstTenBooks = function() {
     return JSON.parse(
@@ -18,8 +17,6 @@ var getFirstTenBooks = function() {
         .slice(0, 10);
 }
 
-
-// TODO adjust search so that if someone searches in comma form, it will have same pop shift functions applied.
 
 /**
  * Return all books matching the title.
@@ -30,13 +27,13 @@ function searchTitle(books, title, partial) {
     title = title.toUpperCase();
 
     // If Looking for a partial match
-    if(partial == true){
+    if(partial === true){
 
         // Iterate through each book in the books object
         for(let i = books.length - 1; i >= 0; i--){
 
             // For each book find the long title, uppercase it, and search for an index of input title
-            if(books[i]['title_long'].toUpperCase().indexOf(title) == -1 ){
+            if(books[i]['title_long'].toUpperCase().indexOf(title) === -1 ){
 
                 // If the title isn't found then splice the book from the book list
                 books.splice(i,1);
@@ -46,7 +43,7 @@ function searchTitle(books, title, partial) {
 
 
     // If looking for an exact match
-    if(partial == false){
+    if(partial === false){
 
         // Iterate through each book in the books object again.
         for(let i = books.length - 1; i >= 0; i--){
@@ -63,7 +60,7 @@ function searchTitle(books, title, partial) {
     // OUTPUT:
 
     // If there are no books left in the books array
-    if(books.length == 0){
+    if(books.length === 0){
 
         // Let the user know there are no results.
         console.log('Sorry. No matches meet your criteria.')
@@ -86,7 +83,7 @@ function searchTitle(books, title, partial) {
 /**
  * Return all books matching the author.
  */
-function searchAuthor(books, author, partial = true) {
+function searchAuthor(books, author, partial = false) {
 
     // Remove case-sensitivity from the input title
     author = author.toUpperCase();
@@ -101,7 +98,7 @@ function searchAuthor(books, author, partial = true) {
         for(let j = 0; j < books[i]['author_data'].length; j++){
 
             // If there is no comma in the author data name field
-            if(books[i]['author_data'][j]['name'].indexOf(',') == -1){
+            if(books[i]['author_data'][j]['name'].indexOf(',') === -1){
 
                 // Push that name to the newly created author property
                 books[i]['author'].push(books[i]['author_data'][j]['name']);
@@ -138,65 +135,75 @@ function searchAuthor(books, author, partial = true) {
                 // Add the authors to the newly created authors property of each book.
                 books[i]['author'].push(x);
             }
-
-            // ALL AUTHORS ARE NOW BEING PLACED INTO A SINGLE ARRAY OF THE PROPERTY 'author' OF THE BOOK OBJECT
         }
     }
 
-    // TODO start by working on the actual search functionality now that the author property has been created and propagated.
+    // ALL AUTHORS ARE NOW BEING PLACED INTO A SINGLE ARRAY OF THE PROPERTY 'author' OF THE BOOK OBJECT
+
+
+    // Because we are iterating through 2 arrays, it seems easier to just create a new array and push rather than splice.
+    let booksWithAuthor = [];
 
     // If Looking for a partial match
-    // if(partial == true){
-    //
-    //     // Iterate through each book in the books object
-    //     for(let i = books.length - 1; i >= 0; i--){
-    //
-    //         // For each book find the long title, uppercase it, and search for an index of input title
-    //         if(books[i]['title_long'].toUpperCase().indexOf(title) == -1 ){
-    //
-    //             // If the title isn't found then splice the book from the book list
-    //             books.splice(i,1);
-    //         }
-    //     }
-    // }
-    //
-    //
-    // // If looking for an exact match
-    // if(partial == false){
-    //
-    //     // Iterate through each book in the books object again.
-    //     for(let i = books.length - 1; i >= 0; i--){
-    //
-    //         // If the input title is not equal to the long title with case-sensitivity removed
-    //         if(title !== books[i]['title_long'].toUpperCase()){
-    //
-    //             // remove that book from the list
-    //             books.splice(i,1);
-    //         }
-    //     }
-    // }
-    //
-    // // OUTPUT:
-    //
-    // // If there are no books left in the books array
-    // if(books.length == 0){
-    //
-    //     // Let the user know there are no results.
-    //     console.log('Sorry. No matches meet your criteria.')
-    // }
-    //
-    // // If there are books left in the books array
-    // if(books.length > 0){
-    //     // Iterate through the books array
-    //     for(let i = 0; i < books.length -1; i++){
-    //
-    //         // Console log the title
-    //         console.log(books[i]['title_long'])
-    //     }
-    // }
+    if(partial){
 
+        // Iterate through each book in the books object
+        for(let i = books.length - 1; i >= 0; i--){
+
+            // Iterate through each author in the author array
+            for(let j = 0; j < books[i].author.length; j++){
+
+                // For each book find the author, uppercase it, and search for an index of input title
+                if(books[i]['author'][j].toUpperCase().indexOf(author) !== -1 ){
+
+                    // Add the book with matching author to the new booksWithAuthor Array.
+                    booksWithAuthor.push(books[i]);
+                }
+            }
+        }
+    }
+
+    // // If looking for an exact match
+    if(partial === false){
+
+        // Iterate through each book in the books object again.
+        for(let i = books.length - 1; i >= 0; i--){
+
+            // Iterate through each author in the author array.
+            for(let j = 0; j < books[i].author.length; j++){
+
+                // If the input author is not equal to the author in array with case-sensitivity removed
+                if(author === books[i]['author'][j].toUpperCase()){
+
+                    // push that book to the new book array
+                    booksWithAuthor.push(books[i]);
+                }
+            }
+        }
+    }
+
+    // OUTPUT:
+
+    // If there are no books left in the books array
+    if(booksWithAuthor.length === 0){
+
+        // Let the user know there are no results.
+        console.log('Sorry. No matches meet your criteria.')
+    }
+
+    // If there are books left in the books array
+    if(booksWithAuthor.length > 0){
+
+        // Iterate through the books array
+        for(let i = 0; i < booksWithAuthor.length; i++){
+
+            // Console log the title
+            console.log(booksWithAuthor[i]);
+        }
+    }
+    return booksWithAuthor;
 }
 
 //searchTitle(getFirstTenBooks(), 'java', partial = true);
 
-searchAuthor(getFirstTenBooks(), 'Christian Wenz');
+searchAuthor(getFirstTenBooks(), 'CHRISTIAN WENZ');
