@@ -12,18 +12,39 @@
  * and the debugger to see what's going on where.
  */
 
-var getFirstTenBooks = function() {
+// COMPLETE
+
+let getFirstTenBooks = function() {
     return JSON.parse(
         require('fs').readFileSync(__dirname + '/../books.json', 'UTF8'))
         .slice(0, 10);
-}
+};
 
 /**
  * Filter the inputted object for just the selected columns.
  */
-function filterColumns(books, columns = ['title', 'author_data']) {
 
+let filterColumns =  function (books, columns) {
 
+    // Create an empty array push results
+    let byColumns = [];
+
+    // Iterate through each book.
+    for(let i = 0; i < books.length; i++ ){
+        //console.log(books);
+        // Reduce the objects to return only properties requested as input parameters
+        let singleObject = columns.reduce(function(o, k) { o[k] = books[i][k]; return o; }, {});
+
+        // Push those answers to the byColumns empty array created at beginning of the function
+        byColumns.push(singleObject);
+    }
+
+    //console.log(byColumns);
+    return byColumns;
 }
 
-filterColumns(getFirstTenBooks());
+// filterColumns(getFirstTenBooks(),['title', 'author_data']);
+
+module.exports = {
+   filterColumns: filterColumns
+};

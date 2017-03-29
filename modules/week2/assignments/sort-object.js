@@ -10,34 +10,33 @@
  * and the debugger to see what's going on where.
  */
 
-// COMPLETE
+// TODO redo so that the solution works to sort by the last name.
 
 let getFirstTenBooks = function() {
     return JSON.parse(
         require('fs').readFileSync(__dirname + '/../books.json', 'UTF8'))
-        .slice(10
-
-
-
-
-
-
-
-
+        .slice(100, 110);
+}
 
 /**
  * Sort the inputted set of books by name.
  * @param {Array<Object>} books An array of books.
  * @param {Boolean} asc If true, returns list in ascending order.
  */
+
 function sortByName(books, asc = true) {
 
     if(asc !== true){
-        books = books.sort((a, b) => a['title_long'].toLocaleLowerCase() < b['title_long'].toLowerCase());
+        books = books.sort((a, b) => a['title'].toLocaleLowerCase() < b['title'].toLowerCase());
     }
     else{
-        books = books.sort((a, b) => a['title_long'].toLocaleLowerCase() > b['title_long'].toLowerCase());
+        books = books.sort((a, b) => a['title'].toLocaleLowerCase() > b['title'].toLowerCase());
     }
+
+    for(let i=0; i< books.length; i++){
+        console.log(books[i]['title']);
+    }
+
     return books;
 }
 
@@ -46,6 +45,7 @@ function sortByName(books, asc = true) {
  * @param {Array<Object>} books An array of books.
  * @param {Boolean} asc If true, returns list in ascending order.
  */
+
 function sortByAuthor(books, asc = true) {
     for(let i = 0; i < books.length; i++) {
 
@@ -56,12 +56,12 @@ function sortByAuthor(books, asc = true) {
         for (let j = 0; j < books[i]['author_data'].length; j++) {
 
             // If there is no comma in the author data name field
-            if (books[i]['author_data'][j]['name'].indexOf(',') == -1) {
+            if (books[i]['author_data'][j]['name'].indexOf(',') === -1) {
 
                 // Push that name to the newly created author property
                 books[i]['author'].push(books[i]['author_data'][j]['name']);
-
             }
+
             // If there is a comma in the name
             if(books[i]['author_data'][j]['name'].indexOf(',') !== -1){
 
@@ -70,7 +70,6 @@ function sortByAuthor(books, asc = true) {
 
                 // for each book and each author name in that book, split the name into parts of an array
                 x = books[i]['author_data'][j]['name'].split(' ');
-
 
                 // Iterate through part of the name
                 for(let k = x.length; k >= 2; k--){
@@ -106,6 +105,7 @@ function sortByAuthor(books, asc = true) {
         console.log(books[i]['author']);
     }
 
+    console.log(books[4]['author_data'][0]['name']);
     return books;
 }
 

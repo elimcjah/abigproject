@@ -1,0 +1,74 @@
+{
+	"name": "stylus",
+	"description": "The only extension you'll ever need for Stylus Language Support",
+	"version": "0.1.0",
+	"author": "Vitor Buzinaro",
+	"publisher": "buzinas",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Languages",
+		"Other"
+	],
+	"homepage": "https://github.com/buzinas/vscode-stylus/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/buzinas/vscode-stylus.git"
+	},
+	"bugs": "https://github.com/buzinas/vscode-stylus/issues",
+	"activationEvents": [
+		"onLanguage:stylus"
+	],
+	"icon": "images/stylusIcon.png",
+	"license": "MIT",
+	"main": "./out/src/extension",
+	"contributes": {
+		"languages": [
+			{
+				"id": "stylus",
+				"aliases": [
+					"Stylus",
+					"stylus"
+				],
+				"extensions": [
+					".styl",
+					".stylus"
+				],
+				"configuration": "./stylus.configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "stylus",
+				"scopeName": "source.stylus",
+				"path": "./syntaxes/stylus.tmLanguage"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+		"compile": "node ./node_modules/vscode/bin/compile -watch -p ./"
+	},
+	"devDependencies": {
+		"chai": "^3.4.1",
+		"tslint-eslint-rules": "^0.3.0",
+		"typescript": "^1.6.2",
+		"vscode": "0.10.x"
+	},
+	"keywords": [
+		"vscode",
+		"stylus",
+		"vs-code",
+		"extension",
+		"vscode-extension",
+		"vscode-stylus",
+		"language-support",
+		"stylus-intellisense"
+	],
+	"__metadata": {
+		"id": "07197e7c-9e45-461f-96ae-66af2619b01c",
+		"publisherId": "d2323d12-816b-46d0-a854-ae6a27c74f3c",
+		"publisherDisplayName": "Vitor Buzinaro"
+	}
+}

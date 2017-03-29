@@ -1,0 +1,27 @@
+{
+  "name": "HashRouter",
+  "description": "Simple access to the Hashbang with listeners, filters and query string deconstruction.",
+  "main": "hashrouter.class.js",
+  "keywords": [
+    "router",
+    "hash",
+    "hashbang",
+    "url",
+    "single",
+    "page",
+    "application",
+    "spa"
+  ],
+  "authors": [
+    "Mike Whitfield"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.mikewhitfield.org",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

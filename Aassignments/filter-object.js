@@ -12,6 +12,8 @@
  * and the debugger to see what's going on where.
  */
 
+// COMPLETE
+
 let getFirstTenBooks = function() {
     return JSON.parse(
         require('fs').readFileSync(__dirname + '/../books.json', 'UTF8'))
@@ -23,21 +25,23 @@ let getFirstTenBooks = function() {
 /**
  * Filter the inputted books bounded by input year.
  */
+
 function filterByDate(books, yearMin, yearMax) {
 
     // iterate through each book
-    for(let i = 0; i<books.length; i++){
+    for(let i = 0; i < books.length; i++){
 
         // Remove all characters except hyphens from edition_info and publisher_text
         let aaed  = books[i]['edition_info'].replace(/[^0-9\-]/g,'');
         let aapub = books[i]['publisher_text'].replace(/[^0-9\-]/g,'');
 
         // If the first character in new variables is a hyphen Remove
-        if(aaed.charAt(0) == '-'){
+        if(aaed.charAt(0) === '-'){
             aaed = aaed.substring(1);
         }
-        if(aapub.charAt(0) == '-') {
-            aaed = aaed.substring(1);
+
+        if(aapub.charAt(0) === '-'){
+            aapub = aapub.substring(1);
         }
 
         // Add a new property to each book with date that will occasionally include month and/or day
@@ -47,12 +51,11 @@ function filterByDate(books, yearMin, yearMax) {
         books[i].year = aaed ? aaed.substring(0,4) : aapub;
 
         //  ALL BOOKS HAVE A KEY OF 'year' NOW.
-
     }
 
     // FILTER OUT BOOKS OLDER THAN yearMin
 
-    if(yearMin == ''){
+    if(yearMin === ''){
         yearMin = -1;
     }
 
@@ -71,7 +74,7 @@ function filterByDate(books, yearMin, yearMax) {
     // FILTER OUT BOOKS NEW THAN yearMax
 
     // Plan for error from undefined
-    if(yearMax == ''){
+    if(yearMax === ''){
         yearMax = 9999;
     }
 
@@ -86,7 +89,7 @@ function filterByDate(books, yearMin, yearMax) {
 
         // Remove all books with no dates found in data file.
         // This will pass the test but needs to be fixed so that its only spliced if yearMin or yearMax is input.
-        if(books[k].year == ''){
+        else if(books[k].year === ''){
             books.splice(k,1);
         }
 
@@ -97,15 +100,15 @@ function filterByDate(books, yearMin, yearMax) {
     for(let i = 0; i < books.length; i++){
 
         // If a book is returned because its year is missing the user should be alerted to this reason.
-        if(books[i].year == '' ){
-            console.log(books[i]['title_latin'] +' **** RETURNED BECAUSE NO YEAR PUBLISHED FOUND ****');
+        if(books[i].year === '' ){
+            console.log(books[i]['title_long'] +' **** RETURNED BECAUSE NO YEAR PUBLISHED FOUND ****');
         }
         else{
             // Return all books with a long title and year.
-            console.log(books[i]['title_latin'] + ' :: published in ' + books[i]['year']);
+            console.log(books[i]['title_long'] + ' :: published in ' + books[i]['year']);
         }
     }
     return books;
 }
 
-filterByDate(getFirstTenBooks(), 2010, 2012);
+filterByDate(getFirstTenBooks(), 1996, 2000);

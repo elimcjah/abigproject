@@ -13,7 +13,6 @@ class Framework{
         this.url                 = url;
         this.github_score        = github_score;
         this.stackoverflow_score = stackoverflow_score;
-
     };
 }
 

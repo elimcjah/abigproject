@@ -2,5 +2,7 @@
   "folders": [
     "modules/week2/tests",
     "modules/week3/tests"
-  ]
+  ],
+  "ua-scope": "JS3030",
+  "ua-uuid": "79215033-59ce-4599-8700-96c1b4bddd28"
 }

@@ -4,9 +4,6 @@
  * Place the objects into an array called 'all_objects'.
  */
 
-
-// COMPLETE
-
 class Framework{
     constructor(name, language, description, url, github_score, stackoverflow_score){
 
@@ -16,7 +13,6 @@ class Framework{
         this.url                 = url;
         this.github_score        = github_score;
         this.stackoverflow_score = stackoverflow_score;
-
     };
 }
 
@@ -36,4 +32,4 @@ let django      = new Framework('Django', ' Python', 'Django is a high-level Pyt
 
 all_objects.push(asp_dot_net, angular_js, rails, react, django);
 
-console.log(all_objects);
+console.log(all_objects.length);

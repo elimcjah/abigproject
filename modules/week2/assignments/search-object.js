@@ -11,17 +11,17 @@
  */
 
 
-var getFirstTenBooks = function() {
+let getFirstTenBooks = function() {
     return JSON.parse(
         require('fs').readFileSync(__dirname + '/../books.json', 'UTF8'))
-        .slice(0, 10);
+        .slice(100, 110);
 }
-
 
 /**
  * Return all books matching the title.
  */
-function searchTitle(books, title, partial) {
+
+function searchTitle(books, title, partial=true) {
 
     // Remove case-sensitivity from the input title
     title = title.toUpperCase();
@@ -32,15 +32,15 @@ function searchTitle(books, title, partial) {
         // Iterate through each book in the books object
         for(let i = books.length - 1; i >= 0; i--){
 
-            // For each book find the long title, uppercase it, and search for an index of input title
-            if(books[i]['title_long'].toUpperCase().indexOf(title) === -1 ){
+            // For each book find the title, uppercase it, and search for an index of input title
+            if(books[i]['title'].toUpperCase().indexOf(title) === -1 ){
 
                 // If the title isn't found then splice the book from the book list
                 books.splice(i,1);
             }
         }
+        console.log(books.length);
     }
-
 
     // If looking for an exact match
     if(partial === false){
@@ -49,12 +49,13 @@ function searchTitle(books, title, partial) {
         for(let i = books.length - 1; i >= 0; i--){
 
             // If the input title is not equal to the long title with case-sensitivity removed
-            if(title !== books[i]['title_long'].toUpperCase()){
+            if(title !== books[i]['title'].toUpperCase()){
 
                 // remove that book from the list
                 books.splice(i,1);
             }
         }
+        console.log(books);
     }
 
     // OUTPUT:
@@ -73,7 +74,7 @@ function searchTitle(books, title, partial) {
         for(let i = 0; i < books.length -1; i++){
 
             // Console log the title
-            console.log(books[i]['title_long'])
+            console.log(books[i]['title'])
         }
     }
 
@@ -83,7 +84,7 @@ function searchTitle(books, title, partial) {
 /**
  * Return all books matching the author.
  */
-function searchAuthor(books, author, partial = false) {
+function searchAuthor(books, author, partial = true) {
 
     // Remove case-sensitivity from the input title
     author = author.toUpperCase();
@@ -204,6 +205,6 @@ function searchAuthor(books, author, partial = false) {
     return booksWithAuthor;
 }
 
-//searchTitle(getFirstTenBooks(), 'java', partial = true);
+//searchTitle(getFirstTenBooks(), 'Testable Javascript', false);
 
-searchAuthor(getFirstTenBooks(), 'CHRISTIAN WENZ');
+searchAuthor(getFirstTenBooks(), 'Paul Wilton', false);

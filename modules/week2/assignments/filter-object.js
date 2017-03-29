@@ -12,14 +12,12 @@
  * and the debugger to see what's going on where.
  */
 
-
 // COMPLETE
-
 
 let getFirstTenBooks = function() {
     return JSON.parse(
         require('fs').readFileSync(__dirname + '/../books.json', 'UTF8'))
-        .slice(0, 10);
+        .slice(100, 110);
 }
 
 // console.log(getFirstTenBooks().keys)
@@ -27,6 +25,7 @@ let getFirstTenBooks = function() {
 /**
  * Filter the inputted books bounded by input year.
  */
+
 function filterByDate(books, yearMin, yearMax) {
 
     // iterate through each book
@@ -37,12 +36,12 @@ function filterByDate(books, yearMin, yearMax) {
         let aapub = books[i]['publisher_text'].replace(/[^0-9\-]/g,'');
 
         // If the first character in new variables is a hyphen Remove
-        if(aaed.charAt(0) == '-'){
+        if(aaed.charAt(0) === '-'){
             aaed = aaed.substring(1);
         }
 
-        if(aapub.charAt(0) == '-') {
-            aaed = aaed.substring(1);
+        if(aapub.charAt(0) === '-'){
+            aapub = aapub.substring(1);
         }
 
         // Add a new property to each book with date that will occasionally include month and/or day
@@ -90,7 +89,7 @@ function filterByDate(books, yearMin, yearMax) {
 
         // Remove all books with no dates found in data file.
         // This will pass the test but needs to be fixed so that its only spliced if yearMin or yearMax is input.
-        if(books[k].year === ''){
+        else if(books[k].year === ''){
             books.splice(k,1);
         }
 
@@ -102,14 +101,15 @@ function filterByDate(books, yearMin, yearMax) {
 
         // If a book is returned because its year is missing the user should be alerted to this reason.
         if(books[i].year === '' ){
-            console.log(books[i]['title_long'] +' **** RETURNED BECAUSE NO YEAR PUBLISHED FOUND ****');
+            console.log(books[i]['title'] +' **** RETURNED BECAUSE NO YEAR PUBLISHED FOUND ****');
         }
         else{
             // Return all books with a long title and year.
-            console.log(books[i]['title_long'] + ' :: published in ' + books[i]['year']);
+            console.log(books[i]['title'] + ' :: published in ' + books[i]['year']);
         }
     }
+
     return books;
 }
 
-filterByDate(getFirstTenBooks(), 1996, 2000);
+filterByDate(getFirstTenBooks(), 2010, 2012);

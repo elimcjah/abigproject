@@ -14,26 +14,36 @@
 
 // COMPLETE
 
-var getFirstTenBooks = function() {
+let getFirstTenBooks = function() {
     return JSON.parse(
         require('fs').readFileSync(__dirname + '/../books.json', 'UTF8'))
-        .slice(0, 10);
-}
+        .slice(100, 110);
+};
 
 /**
  * Filter the inputted object for just the selected columns.
  */
-function filterColumns(books, columns = ['title', 'author_data']) {
 
+function filterColumns(books, columns) {
+
+    // Create an empty array push results
     let byColumns = [];
 
+    // Iterate through each book.
     for(let i = 0; i < books.length; i++ ){
-        let singleObjects = columns.reduce(function(o, k) { o[k] = books[0][k]; return o; }, {});
 
-        byColumns.push(singleObjects);
+        // Reduce the objects to return only properties requested as input parameters
+        let singleObject = columns.reduce(function(o, k) { o[k] = books[i][k]; return o; }, {});
+
+        // Push those answers to the byColumns empty array created at beginning of the function
+        byColumns.push(singleObject);
     }
-
-       return byColumns;
+ console.log(byColumns);
+    return byColumns;
 }
 
-filterColumns(getFirstTenBooks());
+filterColumns(getFirstTenBooks(),['edition_info', 'title', 'book_id']);
+
+module.exports = {
+   filterColumns: filterColumns
+};
