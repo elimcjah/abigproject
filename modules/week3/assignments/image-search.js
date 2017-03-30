@@ -6,37 +6,29 @@
  * 
  */
 
+let request    = require('request');
 
-//let keyword = 'flower';
+let fs         = require('fs');
 
-const key     = '&api_key=b2262c0ff71fe60473136cc5ecb7b6a4';
+const key      = '&api_key=b2262c0ff71fe60473136cc5ecb7b6a4';
 
-const url     = 'api.flickr.com/';
+const url      = 'api.flickr.com';
 
-const search  = '/services/rest/?method=flickr.photos.search';
+const search   = '/services/rest/?method=flickr.photos.search';
 
-//let id        = '33292307240';
+const getInfo  = '/services/rest/?method=flickr.photos.getInfo';
 
-const getInfo = '/services/rest/?method=flickr.photos.getInfo';
+const getImageURL = '/services/rest/?method=flickr.photos.getSizes';
 
-let fs        = require('fs');
+const dir      = './tmp/';
 
-//let filename  = id + '.json';
-
-let keyword   = 'flower';
-
+let keyword    = 'flower';
 
 class ImageSearch {
-    constructor(filename) {
-
-        this.keyword = 'flower';
+    constructor() {
         this.network = require('https');
-        //this.getPhoto(keyword);
-        //this.getFlickrPhoto(id);
-        //this.search(keyword);
-        this.filename = '';
-
-        //this.getFlickrPhoto(this.id);
+        this.jsonExt = '.json';
+        this.jpgExt  = '.jpg';
     }
 
     /**
@@ -46,47 +38,32 @@ class ImageSearch {
      */
     getPhoto(keyword) {
 
-        this.search(keyword).then((results) =>
+        this.search(keyword).then((id) =>
+            this.getPhotoContents(id).then((contents) =>
+                this.storeFileJSONinfo(contents, keyword).then((pathName) =>
+                    this.getFlickrPhoto(id).then((imageURL) =>
+                        this.storeFile(imageURL, id).then((imagePath) =>
 
-            console.log(results)
+                                console.log(imagePath)
 
-            //this.getFlickrPhoto(resolve).then((results) =>
-            //
-            //      //console.log(results)
-            //
-            //     this.storeFile(results).then((results) =>
-            //
-              //     console.log(results)
-            //)
-
-        )
-
+                        )))));
     }
 
-    /**
-     * Gets the photo contents and returns the network response as a promise.
-     * Takes an input of an ID.
-     * @param {String} id The Flickr photo ID.
-     * @return {Promise} A promise that resolves with the photo contents of the
-     * ID.
-     */
-    getFlickrPhoto(id) {
+    getFlickrPhoto (id){
 
         return new Promise((resolve, reject) => {
 
             let options = {
-                "dataType": "json",
                 "method": "GET",
-                "hostname": "api.flickr.com",
-                "port": null,
-                "path": getInfo + "&api_key=b2262c0ff71fe60473136cc5ecb7b6a4&photo_id=" + id +
-                "&format=json&nojsoncallback=?",
-                "headers": {
-                    "Content-Type": "application/json"
-                }
+                "hostname": url,
+                "path": getImageURL + key + "&photo_id=" + id + "&format=json&nojsoncallback=?"
             };
 
             let req = this.network.request(options, function (res) {
+
+                // Set the image size here.
+                let sizeOfImage = 'Thumbnail';
+
                 let chunks = [];
 
                 res.on("data", function (chunk) {
@@ -98,9 +75,61 @@ class ImageSearch {
 
                     body = JSON.parse(body);
 
-                    console.log(body);
+                    //console.log(body);
 
-                    return body.toString();
+                    let imageURL = body.sizes.size;
+
+                    imageURL = imageURL.filter(function( obj ) {
+                        return obj.label === sizeOfImage;
+                    });
+
+                    imageURL = imageURL[0]['source'];
+
+                    resolve(imageURL);
+                });
+            });
+
+            req.on('error', (e) => {
+                console.error(e);
+                return e;
+            });
+
+            req.end();
+
+        })
+    }
+
+    /**
+     * Gets the photo contents and returns the network response as a promise.
+     * Takes an input of an ID.
+     * @param {String} id The Flickr photo ID.
+     * @return {Promise} A promise that resolves with the photo contents of the
+     * ID.
+     */
+    getPhotoContents(id) {
+
+        return new Promise((resolve, reject) => {
+
+            let options = {
+                "method": "GET",
+                "hostname": url,
+                "path": getInfo + key + "&photo_id=" + id + "&format=json&nojsoncallback=?"
+            };
+
+            let req = this.network.request(options, function (res) {
+
+                let chunks = [];
+
+                res.on("data", function (chunk) {
+                    chunks.push(chunk);
+                });
+
+                res.on("end", function () {
+                    let body = Buffer.concat(chunks);
+
+                    body = JSON.parse(body);
+
+                    resolve(body);
                 });
             });
 
@@ -134,79 +163,85 @@ class ImageSearch {
      */
     search(keyword) {
 
-
-        // TODO Add a reject resolve
         return new Promise((resolve, reject) => {
 
             let options = {
-                "dataType": "json",
                 "method": "GET",
-                "hostname": "api.flickr.com",
-                "port": null,
-                "path": search + "&api_key=b2262c0ff71fe60473136cc5ecb7b6a4&tags=" + keyword +
-                "&format=json&nojsoncallback=?",
-                "headers": {
-                    "Content-Type": "application/json"
-                }
-            }
+                "hostname": url,
+                "path": search + key + "&tags=" + keyword + "&format=json&nojsoncallback=?"
+            };
 
-            console.log('152');
-
-            this.network.request(options, function (res, error) {
+            let req = this.network.request(options, function (res, err) {
 
                 let chunks = [];
 
                 res.on("data", function (chunk) {
-                    chunks.push(chunk);
-                })
-
-                res.on("end", function () {
-                    let body = Buffer.concat(chunks);
-
-                    body = JSON.parse(body);
-
-                    console.log('id for the first photo is ' + body.photos.photo[0].id);
-
-                    resolve(body.photos.photo[0].id);
-
-                })
-
-
-                res.on('error', (error) => {
-                    console.error(error);
-                    return error;
+                    chunks.push(chunk)
                 });
 
-                res.end();
+                res.on("end", function () {
 
-            })
+                    //TODO fix this warning somehow
+                    let body = JSON.parse(Buffer.concat(chunks));
 
+                    resolve(body['photos']['photo'][0].id);
+                });
+            });
+
+            req.on('error', (e) => {
+                console.error(e);
+                return e;
+            });
+
+            req.end();
         })
-
     }
-
-
 
     /**
      * Stores the file in the filesystem.
      * @param {String} filename The filename to use.
      * @param {String} contents The contents of the file.
      */
-    static storeFile(contents) {
+    storeFileJSONinfo(contents, keyword) {
 
-    //     console.log(contents);
-    //
-    //     return new Promise((resolve, reject) => {
-    //
-    // });
+        return new Promise((resolve, reject) => {
 
+            let imageJSON = dir + keyword + '-' + contents['photo'].id + this.jsonExt;
+
+            if(fs.existsSync(imageJSON)){
+
+                contents = JSON.stringify(contents, null, "\t");
+
+                fs.writeFileSync(imageJSON, contents, 'utf-8');
+
+
+            } else {
+
+                contents = JSON.stringify(contents, null, "\t");
+
+                fs.writeFileSync(imageJSON, contents, 'utf-8');
+
+            }
+
+            resolve(imageJSON)
+        });
+    }
+
+    storeFile(imageURL, id){
+
+        return new Promise((resolve, reject) => {
+
+            let jpgFile = dir + keyword + '-' + id + this.jpgExt;
+
+            request(imageURL, {encoding: 'binary'}, (error, response, body) =>
+
+                    fs.writeFile(jpgFile, body, 'binary', function (err) {}));
+
+            resolve(jpgFile)
+        });
     }
 }
 
-//(new ImageSearch()).getPhoto('flower', 0);
-
 (new ImageSearch()).getPhoto(keyword);
 
-//(new ImageSearch()).search(keyword);
-
-// module.exports = ImageSearch;
+module.exports = ImageSearch;
