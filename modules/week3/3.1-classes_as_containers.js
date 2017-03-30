@@ -129,4 +129,6 @@ class Game {
     }
 }
 
+Game.initilaize();
+
 module.exports = Game;
