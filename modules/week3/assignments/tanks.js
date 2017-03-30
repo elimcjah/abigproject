@@ -9,16 +9,26 @@
  * 
  */
 
-var Game = require(__dirname + '/../3.9-classes_as_templates.js');
+// let Game = require(__dirname + '/../3.9-classes_as_templates.js');
 
-class TanksGame extends Game {
-    gameOptions() {
-        super.gameOptions(); // do we need to call this?
+// class TanksGame extends Game {
+//
+//     gameOptions() {
+//         super.gameOptions(); // do we need to call this?
+//
+//     }
+//     // receiveInput() {
+//     //
+//     //    console.log('inside tanks.js line 22');
+//     //     super.receiveInput();
+//     //     this.rl = require('readline').createInterface({
+//     //         input: process.stdin
+//     //     });
+//     // }
+// }
 
-    }
-    receiveInput() {
-        super.receiveInput(); // do we need to call this?
-    }
-}
+// TanksGame.initialize();
 
-new TanksGame();
+//console.log(__dirname + '/../3.9-classes_as_templates.js');
+
+//new TanksGame();

@@ -22,7 +22,7 @@
 
 class Game {
     static processInput() {
-        var stdin = process.openStdin(); 
+        var stdin = process.openStdin();
         Game.rl = require('readline').createInterface({
             input: process.stdin
         });

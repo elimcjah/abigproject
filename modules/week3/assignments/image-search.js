@@ -44,7 +44,7 @@ class ImageSearch {
                     this.getFlickrPhoto(id).then((imageURL) =>
                         this.storeFile(imageURL, id).then((imagePath) =>
 
-                                console.log(imagePath)
+                                console.log('Image successfully created at '+ imagePath)
 
                         )))));
     }
@@ -206,6 +206,10 @@ class ImageSearch {
 
         return new Promise((resolve, reject) => {
 
+            if (!fs.existsSync(dir)){
+                fs.mkdirSync(dir);
+            }
+
             let imageJSON = dir + keyword + '-' + contents['photo'].id + this.jsonExt;
 
             if(fs.existsSync(imageJSON)){
@@ -230,6 +234,10 @@ class ImageSearch {
     storeFile(imageURL, id){
 
         return new Promise((resolve, reject) => {
+
+            if (!fs.existsSync(dir)){
+                fs.mkdirSync(dir);
+            }
 
             let jpgFile = dir + keyword + '-' + id + this.jpgExt;
 

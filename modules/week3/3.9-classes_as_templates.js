@@ -1,26 +1,26 @@
 /**
- * 
+ *
  * classes as templates, lesson 3.8
  * @author Laurie Linz
  * @author Mike Whitfield
- * 
- * Classes help simplifiy prototype-based inheritance. A class can be created to 
- * simplifiy object creation providing clear and simple syntax. 
- * 
+ *
+ * Classes help simplifiy prototype-based inheritance. A class can be created to
+ * simplifiy object creation providing clear and simple syntax.
+ *
  */
 
 class Book {
     /**
      * A constructor is a special function (it's a language keyword) called
-     * when a class is "instantiated".  A class is instantiated when it is 
-     * called like a function with the "new" keyword.  This is similar to the 
-     * examples presented in 3.2.  In this way, a class can be thought of 
-     * as a shortcut for writing a function that returns an object.  The 
-     * primary difference is that a class is also a container for other 
+     * when a class is "instantiated".  A class is instantiated when it is
+     * called like a function with the "new" keyword.  This is similar to the
+     * examples presented in 3.2.  In this way, a class can be thought of
+     * as a shortcut for writing a function that returns an object.  The
+     * primary difference is that a class is also a container for other
      * functions.
-     * 
+     *
      * Each time a new class object is instantiated, the constructor is called
-     * and a new object is allocated and assigned to this.  Each time a 
+     * and a new object is allocated and assigned to this.  Each time a
      * function in this class is called, it is called with the correct "this"
      * context.
      */
@@ -44,7 +44,7 @@ class Book {
 
 const the_hobbit = new Book('The Hobbit', 'Tolkien', 1937, 'non-fiction');
 // since classes receive a new "this" object each time, they can be reused
-const star_wars = new Book('Star Wars IV: A New Hope', 'George Lucas', 1976, 
+const star_wars = new Book('Star Wars IV: A New Hope', 'George Lucas', 1976,
     'fiction');
 // the reuse of a class is one of the primary reasons for object oriented programming
 
@@ -53,10 +53,13 @@ const star_wars = new Book('Star Wars IV: A New Hope', 'George Lucas', 1976,
   Now let's redefine the Game class from 3.1, this time using classes as
   templates.
  */
-// notice that we add a constructor, remove the static keywords, 
+// notice that we add a constructor, remove the static keywords,
 // and reference instance variables using this.* instead of Game.*
 class Game {
     constructor() {
+
+
+
         this.rl = require('readline').createInterface({
             input: process.stdin
         });
@@ -66,11 +69,13 @@ class Game {
 
         this.title = '';
 
-        this.initilaize();
+        this.initialize();
+        this.processInput();
     }
-    
+
     processInput() {
-        var stdin = process.openStdin(); 
+
+        let stdin = process.openStdin();
 
         this.rl.on('line', function (input) {
             this.receiveInput(input);
@@ -129,7 +134,7 @@ class Game {
         return this.started;
     }
 
-    initilaize() {
+    initialize() {
         this.title = 'Mike\'s Arcade';
         this.state = []; // state here is explicit
 
@@ -173,5 +178,7 @@ class Game {
         this.draw();
     }
 }
+
+new Game();
 
 module.exports = Game;
