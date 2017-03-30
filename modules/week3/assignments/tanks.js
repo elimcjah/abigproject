@@ -16,10 +16,13 @@ class TanksGame extends Game {
         super.gameOptions(); // do we need to call this?
         console.log('       c. tanks');
     }
-    receiveInput(input) {
-        super.receiveInput(); // do we need to call this?
-        if (char == 'c') {
-            this.enterGame('tanks');
+    receiveInput(char) {
+        super.receiveInput(char); // do we need to call this?
+        switch(this.currentState()) {
+            case 'gameOptions':
+                if (char === 'c') {
+                    this.enterGame('tanks');
+                }
         }
     }
 }
