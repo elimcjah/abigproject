@@ -7,6 +7,8 @@
  * Game.gameOptions functions.
  */
 
+
+
 var Game = require(__dirname + '/../3.1-classes_as_containers.js');
 Game.oldReceiveInput = Game.receiveInput;
 Game.receiveInput = function(char) {
