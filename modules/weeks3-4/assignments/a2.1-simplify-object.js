@@ -22,6 +22,8 @@ var getFirstTenBooks = function() {
         .slice(0, 10);
 }
 
+
+
 /** 
  * Filter the inputted object for just the selected columns.
  * @param {Array} books The array of books.
