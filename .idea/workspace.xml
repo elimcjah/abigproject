@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac92333f-83f6-4f16-932d-b0d458d2ee04" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/week2/assignments/filter-object.js" afterPath="$PROJECT_DIR$/modules/week2/assignments/filter-object.js" />
-    </list>
+    <list default="true" id="ac92333f-83f6-4f16-932d-b0d458d2ee04" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -835,7 +833,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182536000" />
+    <option name="totallyTimeSpent" value="182579000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
