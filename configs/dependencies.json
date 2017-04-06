@@ -1,15 +1,18 @@
 {
   "modules": [
     {
-      "js3030-week1": "week1"
+      "js3030-week1": "weeks1-2"
     },
     {
-      "js3030-week2": "week2"
+      "js3030-week2": "weeks3-4"
     },
     {
-      "js3030-week3": "week3"
+      "js3030-week3": "weeks5-6"
+    },
+    {
+      "js3030-week4": "weeks7-8"
     }
   ],
   "preserveChanges": true,
-  "ua-uuid": "5b13d9e1-47de-479d-968a-079021ce2d3e"
+  "ua-uuid": "4ec9848d-2ab8-4dc4-9473-ec8a7ef0ee88"
 }

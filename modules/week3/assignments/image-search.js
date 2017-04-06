@@ -22,7 +22,7 @@ const getImageURL = '/services/rest/?method=flickr.photos.getSizes';
 
 const dir      = './tmp/';
 
-let keyword    = 'flower';
+let keyword    = 'puppy';
 
 class ImageSearch {
     constructor() {
@@ -45,7 +45,6 @@ class ImageSearch {
                         this.storeFile(imageURL, id).then((imagePath) =>
 
                                 console.log('Image successfully created at '+ imagePath)
-
                         )))));
     }
 
