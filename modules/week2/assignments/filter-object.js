@@ -112,4 +112,5 @@ function filterByDate(books, yearMin, yearMax) {
     return books;
 }
 
+
 filterByDate(getFirstTenBooks(), 2010, 2012);
