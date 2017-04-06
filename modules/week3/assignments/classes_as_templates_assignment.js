@@ -16,6 +16,7 @@ class Framework{
     };
 }
 
+
 all_objects = [];
 
 let asp_dot_net = new Framework('ASP.NET', 'C#', 'Web Development with Power, Productivity and Speed',
