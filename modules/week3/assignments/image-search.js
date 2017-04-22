@@ -6,23 +6,26 @@
  * 
  */
 
-let request    = require('request');
+let fs      = require('fs');
 
-let fs         = require('fs');
+let request = require('request');
 
-const key      = '&api_key=b2262c0ff71fe60473136cc5ecb7b6a4';
+const key         = '&api_key=b2262c0ff71fe60473136cc5ecb7b6a4';
 
-const url      = 'api.flickr.com';
+const url         = 'api.flickr.com';
 
-const search   = '/services/rest/?method=flickr.photos.search';
+const search      = '/services/rest/?method=flickr.photos.search';
 
-const getInfo  = '/services/rest/?method=flickr.photos.getInfo';
+const getInfo     = '/services/rest/?method=flickr.photos.getInfo';
 
 const getImageURL = '/services/rest/?method=flickr.photos.getSizes';
 
-const dir      = './tmp/';
+const dir         = './tmp/';
 
-let keyword    = 'puppy';
+// This is the only item changed to cha
+let searchTerm    = 'Struthio camelus';
+
+let keyword       = searchTerm.split(' ').join('+');
 
 class ImageSearch {
     constructor() {
@@ -61,7 +64,7 @@ class ImageSearch {
             let req = this.network.request(options, function (res) {
 
                 // Set the image size here.
-                let sizeOfImage = 'Thumbnail';
+                let sizeOfImage = 'Medium';
 
                 let chunks = [];
 
@@ -172,6 +175,9 @@ class ImageSearch {
 
             let req = this.network.request(options, function (res, err) {
 
+
+                console.log(req);
+
                 let chunks = [];
 
                 res.on("data", function (chunk) {
@@ -183,7 +189,7 @@ class ImageSearch {
                     //TODO fix this warning somehow
                     let body = JSON.parse(Buffer.concat(chunks));
 
-                    resolve(body['photos']['photo'][0].id);
+                    resolve(body['photos']['photo'][Math.floor(Math.random() * body['photos']['photo'].length)].id);
                 });
             });
 

@@ -15,8 +15,7 @@
  */
 
 /**
- * This is a basic Express server.  We'll build in this class in future 
- * modules.
+ * This is a basic Express server for 4.2.  It adds a setupRoutes function.
  * @class
  */
 class Server {
@@ -27,6 +26,7 @@ class Server {
     static initialize(helloString = 'Fancy!') {
         Server.express = require('express');
         Server.app = this.express(); // we want to maintain the express object
+        Server.setupRoutes();
     }
 
     /**
@@ -35,7 +35,16 @@ class Server {
     static setupRoutes() {
         // this is a route.  the asterisk denotes that the route applies to 
         // all incoming path requests.
+        //
+        // *** IMPORTANT ***
+        //
+        // it's very *important* the order in which routes are added, since 
+        // an incoming request will be checked against the available routes in
+        // order!
         Server.app.all('*', function(req, res, next) {
+            console.log('Requested path: ', req.path); // the reuested URI
+            console.log('Query string: ', req.query); // the querystring for GET requests
+
             // our req object tells about the HTTP request.
             // our res object gives us access to control the response.
             // our next object allows us to programmatically goto the next route
@@ -64,6 +73,7 @@ class Server {
         });
     }
 }
+
 Server.initialize();
 module.exports = Server;
 
@@ -74,4 +84,7 @@ module.exports.nowYouTry = function() {
     // Create two routes.  One route should "pass-through" using next and
     // send our a console log message.  The other route should use res.send()
     // to send something back to the connected user.
+    Server.startServer();
 }
+// uncomment the following line and run, "node ./4.2-routes.js"
+// module.exports.nowYouTry();

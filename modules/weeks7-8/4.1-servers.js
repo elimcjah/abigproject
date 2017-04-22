@@ -55,8 +55,7 @@
  */
 
 /**
- * This is a basic Express server.  We'll build in this class in future 
- * modules.
+ * This is a basic Express server for 4.1.
  * @class
  */
 class Server {
@@ -69,7 +68,8 @@ class Server {
         Server.express = require('express');
         Server.app = this.express(); // we want to maintain the express object
         Server.app.all('*', function(req, res, next) {
-            res.send(helloString);
+            res.send(helloString); // this sends a response back to the browser
+            // if we call res.send a second time, a critical error is thrown!
         });
     }
 
@@ -102,4 +102,7 @@ module.exports.nowYouTry = function() {
     // also, before running the server, call Server.initialize with some 
     // custom string to verify when you point your browser to the server
     // local that it is indeed the correct location.
+    Server.startServer();
 }
+// uncomment the following line and run, "node ./4.1-servers.js"
+// module.exports.nowYouTry();

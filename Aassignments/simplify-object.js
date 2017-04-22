@@ -31,7 +31,7 @@ let filterColumns =  function (books, columns) {
 
     // Iterate through each book.
     for(let i = 0; i < books.length; i++ ){
-        //console.log(books);
+
         // Reduce the objects to return only properties requested as input parameters
         let singleObject = columns.reduce(function(o, k) { o[k] = books[i][k]; return o; }, {});
 

@@ -18,8 +18,11 @@
     "service-industry-scheduler": "0.0.0",
     "spiritconfigs": "0.4.7",
     "spiritdependencies": "^0.1.65",
-    "spirittests": "^0.3.17",
-    "spirittimers": "^0.8.13"
+    "spirittests": "^0.3.23",
+    "spirittimers": "^0.8.13",
+    "express": "^4.5.2",
+    "node-games": "^3.0.3",
+    "request": "^2.81.0"
   },
   "repository": {
     "type": "git",

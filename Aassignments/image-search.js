@@ -1,9 +1,9 @@
 /**
- *
+ * 
  * @file
  * In this assignment, you need to author a function to perform an arbitrary
  * image search.
- *
+ * 
  */
 
 let fs      = require('fs');
@@ -36,7 +36,7 @@ class ImageSearch {
 
     /**
      * Gets a photo given a keyword.
-     * @param {string} keyword The keyword to search for.
+     * @param {string} keyword The keyword to search for.  
      * @param {Number} idx (Optional) The index of the results to store.
      */
     getPhoto(keyword) {
@@ -47,7 +47,7 @@ class ImageSearch {
                     this.getFlickrPhoto(id).then((imageURL) =>
                         this.storeFile(imageURL, id).then((imagePath) =>
 
-                            console.log('Image successfully created at '+ imagePath)
+                                console.log('Image successfully created at '+ imagePath)
                         )))));
     }
 
@@ -149,16 +149,16 @@ class ImageSearch {
      * This function should initiate the request and return a promise with the
      * image URL for the first result.  Note that you'll need to initiate two
      * requests to make this happen.
-     *
-     * ex.
+     * 
+     * ex. 
      * format=json
      * method=flickr.photos.search
      * api_key=d103d9be76c00510e3738c283338125e
      * text=waterfall
-     *
+     * 
      * https://www.flickr.com/services/api/flickr.photos.search.html
      * https://www.flickr.com/services/api/flickr.photos.getSizes.html
-     *
+     * 
      * @param {String} keyword The keyword to search and pass to the Flickr API.
      * @return {Promise} A promise that resolves with the search listing of the
      * inputted keyword.
@@ -248,7 +248,7 @@ class ImageSearch {
 
             request(imageURL, {encoding: 'binary'}, (error, response, body) =>
 
-                fs.writeFile(jpgFile, body, 'binary', function (err) {}));
+                    fs.writeFile(jpgFile, body, 'binary', function (err) {}));
 
             resolve(jpgFile)
         });
